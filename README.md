@@ -5,12 +5,13 @@
 ## Models
 - x Post -> date:date rationale:text
 - x User -> Devise
-- X AdminUser -> STI
+- x AdminUser -> STI
 
 ## Features:
 - Approval Workflow
 - SMS Sending -> link to approval or overtime input
-- Admin dashboard
+- x Admin dashboard
+- x Block non admin and guest users
 - Email summary to managers for Approval
 - Needs to be documented if employee did not log overtime
 
