@@ -16,10 +16,4 @@
 - Email summary to managers for Approval
 - Needs to be documented if employee did not log overtime
 
-## UI:
-- x Bootstrap -> formatting
-- x Icons from glyphicons
-- x Update the styles for forms
-
 ## Refactor TODOs:
-- Integrate validation for phone attr in users
