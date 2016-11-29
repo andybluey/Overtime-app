@@ -6,7 +6,7 @@
 - x Post -> date:date rationale:text
 - x User -> Devise
 - x AdminUser -> STI
-- AuditLog
+- x AuditLog
 
 ## Features:
 - Approval Workflow
@@ -14,6 +14,6 @@
 - x Admin dashboard
 - x Block non admin and guest users
 - Email summary to managers for Approval
-- Needs to be documented if employee did not log overtime
+- x Needs to be documented if employee did not log overtime
 
 ## Refactor TODOs:
