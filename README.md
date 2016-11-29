@@ -21,7 +21,7 @@
 - x Update buttons on employee homepage so they show on mobile
 - x Update buttons to include time span
 - x Update button sort order on employee homepage
-- Fix up admin nav
+- x Fix up admin nav
 - Implement Honeybadger error reporting
 - Implement new relic for keeping the site alive
 
