@@ -22,5 +22,7 @@
 - Update buttons to include time span
 - Update button sort order on employee homepage
 - Fix up admin nav
+- Implement Honeybadger error reporting
+- Implement new relic for keeping the site alive
 
 ## Refactor TODOs:
