@@ -24,7 +24,7 @@ class EmployeeDashboard < Administrate::BaseDashboard
   COLLECTION_ATTRIBUTES = [
     :posts,
     :email,
-    :ssn
+    :ssn,
   ].freeze
 
   SHOW_PAGE_ATTRIBUTES = [
