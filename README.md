@@ -2,6 +2,21 @@
 
 ## Key requirement: company needs documentation that salaried employees did or did not get overtime each week
 
+## Overview:
+- Using TDD and BDD with the RSpec and Capybara testing frameworks
+- Working with the Twilio API to send SMS messages
+- Integrating a permission structure for users
+- Implementing an administrator dashboard
+- Working with automated email components
+- Creating an approval workflow from scratch
+- Creating JavaScript Growl notifications
+
+## Deployed here:
+- https://mock-overtime.herokuapp.com/
+- Admin login: 'admin@test.com'
+- User login: 'test@test.com'
+- Password: 'asdfasdf'
+
 ## Gems APIs used
 - Bootstrap (Bootstrap, a sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.)
 - RSpec (RSpec is a testing tool for Ruby, created for behavior-driven development (BDD). It is the most frequently used testing library for Ruby in production applications. Even though it has a very rich and powerful DSL (domain-specific language), at its core it is a simple tool which you can start using rather quickly.)
@@ -16,12 +31,10 @@
 - Newrelic (One thing about Heroku is they are highly concerned about their performance, so if your application is not used for an hour or for a day, it can shut the application down. So, when you start again, your application can take a longer time to load. There are many ways around it. One is to have a paid account, and another is to have a service called "New Relic" installed on your system, so you can ask this service to ping your URL once every few minutes.)
 - Pundit (gives developers the ability to build a full permission structure to ensure users follow the correct authorization rules.)
 
-
-
 ## Models
 - x Post -> date:date work_performed:text
 - x User -> Devise
-- x AdminUser -> STI
+- x AdminUser -> Single Table Inheritance
 - x AuditLog
 
 ## Features:
@@ -38,6 +51,6 @@
 - x Update buttons to include time span
 - x Update button sort order on employee homepage
 - x Fix up admin nav
-- Rails 5
+- x Rails 5
 - Implement Honeybadger error reporting
-- Implement new relic for keeping the site alive
+- x Implement new relic for keeping the site alive
